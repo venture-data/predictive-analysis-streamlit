@@ -18,7 +18,7 @@ def generate_forecast(target_revenue):
     return total_spend, facebook_revenue, google_revenue, organic_revenue
 
 # Streamlit app
-st.title("Revenue Forecast App")
+st.title("Marketing Revenue Forecast")
 
 # Input form
 target_revenue = st.number_input("Enter the target revenue:", min_value=0.0, step=1.0)
